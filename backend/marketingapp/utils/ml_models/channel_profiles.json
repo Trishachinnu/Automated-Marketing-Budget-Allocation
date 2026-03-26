@@ -1,0 +1,98 @@
+{
+  "paid_search": {
+    "name": "Paid Search",
+    "conv_prob": 0.8684,
+    "conv_ci": {
+      "low": 0.859,
+      "high": 0.8774
+    },
+    "ctr": 0.1583,
+    "cvr": 0.1041,
+    "engagement": 5.49,
+    "cost_per_acq": 1039844.34,
+    "cost_efficiency": 0.9981,
+    "clicks": 548.5,
+    "impressions": 5532.9,
+    "avg_spend": 411200.4
+  },
+  "social_media": {
+    "name": "Social Media",
+    "conv_prob": 0.8636,
+    "conv_ci": {
+      "low": 0.854,
+      "high": 0.8728
+    },
+    "ctr": 0.1555,
+    "cvr": 0.1066,
+    "engagement": 5.5,
+    "cost_per_acq": 1037598.12,
+    "cost_efficiency": 1.0002,
+    "clicks": 549.1,
+    "impressions": 5503.5,
+    "avg_spend": 412121.68
+  },
+  "email": {
+    "name": "Email Marketing",
+    "conv_prob": 0.8672,
+    "conv_ci": {
+      "low": 0.8577,
+      "high": 0.8766
+    },
+    "ctr": 0.1556,
+    "cvr": 0.1049,
+    "engagement": 5.49,
+    "cost_per_acq": 1039690.19,
+    "cost_efficiency": 0.9982,
+    "clicks": 550.4,
+    "impressions": 5500.2,
+    "avg_spend": 419615.15
+  },
+  "seo": {
+    "name": "SEO / Content",
+    "conv_prob": 0.865,
+    "conv_ci": {
+      "low": 0.8546,
+      "high": 0.8747
+    },
+    "ctr": 0.1532,
+    "cvr": 0.1035,
+    "engagement": 5.51,
+    "cost_per_acq": 1036490.89,
+    "cost_efficiency": 1.0013,
+    "clicks": 552.0,
+    "impressions": 5509.9,
+    "avg_spend": 414512.92
+  },
+  "referral": {
+    "name": "Referral",
+    "conv_prob": 0.87,
+    "conv_ci": {
+      "low": 0.8621,
+      "high": 0.879
+    },
+    "ctr": 0.1517,
+    "cvr": 0.1031,
+    "engagement": 5.5,
+    "cost_per_acq": 1037500.0,
+    "cost_efficiency": 1.0,
+    "clicks": 550,
+    "impressions": 5500,
+    "avg_spend": 417825.51
+  },
+  "video": {
+    "name": "Video Ads",
+    "conv_prob": 0.87,
+    "conv_ci": {
+      "low": 0.855,
+      "high": 0.885
+    },
+    "ctr": 0.1412,
+    "cvr": 0.0799,
+    "engagement": 5.48,
+    "cost_per_acq": 1035970.37,
+    "cost_efficiency": 1.0018,
+    "clicks": 549.5,
+    "impressions": 5493.7,
+    "avg_spend": 415000.0
+  }
+}

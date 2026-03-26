@@ -1,0 +1,61 @@
+{
+  "conversion_model": {
+    "auc": 0.7863,
+    "cv_auc_mean": 0.7836,
+    "cv_auc_std": 0.0084,
+    "training_samples": 8000,
+    "feature_count": 27,
+    "feature_importance": {
+      "spend_log": 0.0,
+      "WebsiteVisits": 0.0,
+      "PagesPerVisit": 0.0,
+      "TimeOnSite": 0.0,
+      "SocialShares": 0.0,
+      "EmailOpens": 0.0,
+      "EmailClicks": 0.0,
+      "PreviousPurchases": 0.0,
+      "LoyaltyPoints": 0.0,
+      "recency": 0.0,
+      "ch_enc": 0.0,
+      "ct_enc": 0.0,
+      "gender_enc": 0.0,
+      "Age": 0.0,
+      "income_log": 0.0,
+      "spend_per_visit": 0.0,
+      "email_engagement": 0.0,
+      "visit_depth": 0.0,
+      "social_share_rate": 0.0,
+      "loyalty_recency": 0.0,
+      "age_income_interact": 0.0,
+      "loyalty_spend_ratio": 0.0,
+      "email_to_visit_ratio": 0.0,
+      "pages_time_ratio": 0.0,
+      "purchases_loyalty_ratio": 0.0,
+      "social_email_interact": 0.0,
+      "spend_loyalty_score": 0.0
+    },
+    "model_type": "Ensemble(GBM+RF+ET)+IsotonicCalibration",
+    "description": "Voting Ensemble (GBM + RandomForest + ExtraTrees) with isotonic calibration \u2014 27 features, 5-fold CV AUC 0.7836"
+  },
+  "channel_stats": {
+    "source_csv": 8000,
+    "source_xlsx": 200005,
+    "description": "Observed CTR/CVR/engagement/cost from 208k real campaign records"
+  },
+  "strategy_options": [
+    "max_roi",
+    "balanced",
+    "growth",
+    "awareness"
+  ],
+  "channels": [
+    "paid_search",
+    "social_media",
+    "email",
+    "seo",
+    "referral",
+    "video"
+  ],
+  "trained_at": "2026-03-14T07:37:40.200141",
+  "engine_version": "v3"
+}
